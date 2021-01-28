@@ -1,4 +1,4 @@
-package com.techproed.testBaseClasses;
+package com.techproed.javadevapi01;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertTrue;

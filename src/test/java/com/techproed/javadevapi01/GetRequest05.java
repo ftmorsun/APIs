@@ -1,7 +1,9 @@
-package com.techproed.testBaseClasses;
+package com.techproed.javadevapi01;
 import static io.restassured.RestAssured.given;
 
 import org.junit.Test;
+
+import com.techproed.testBaseClasses.TestBaseJsonPlaceHolder;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
