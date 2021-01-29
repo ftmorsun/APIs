@@ -3,6 +3,8 @@ package com.techproed.testBaseClasses;
 
 
 
+import java.util.HashMap;
+
 import org.junit.Before;
 
 import io.restassured.builder.RequestSpecBuilder;
@@ -17,6 +19,11 @@ public class TestBaseDummy {
 		spec = new RequestSpecBuilder().
 							setBaseUri("http://dummy.restapiexample.com").
 							build();	
+	}
+
+	public HashMap<String, Object> setUpData() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
