@@ -111,7 +111,7 @@ public class GetRequest11 extends TestBaseDummy {
 //		assertTrue(json.getString("data[10].employee_salary").equals(((HashMap)expectedData.get("eleventhEmployee")).get("employee_salary")));
 //		assertTrue(json.getString("data[10].employee_age").equals(((HashMap)expectedData.get("eleventhEmployee")).get("employee_age")));
 //		assertTrue(json.getString("data[10].profile_image").equals(((HashMap)expectedData.get("eleventhEmployee")).get("profile_image")));
-​
+		
 		//2.Way: GSON + expectedData Map
 		HashMap<String, Object> actualData = response.as(HashMap.class);
 		System.out.println(actualData);
@@ -122,7 +122,6 @@ public class GetRequest11 extends TestBaseDummy {
 		
 //		int size = ((List)actualData.get("data")).size();
 //		assertEquals(expectedData.get("secondLastSalary"), ((HashMap)((List)actualData.get("data")).get(size-2)).get("employee_salary"));
-​
 //		assertEquals(expectedData.get("numOfEmployees"), ((List)actualData.get("data")).size());
 		
 		List<String> allAgesList = new ArrayList<>();
