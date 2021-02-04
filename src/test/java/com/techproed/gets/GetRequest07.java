@@ -1,4 +1,4 @@
-package com.techproed.javadevapi01;
+package com.techproed.gets;
 
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.assertEquals;
@@ -11,7 +11,7 @@ import static io.restassured.RestAssured.*;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import com.techproed.*;
-import com.techproed.testBaseClasses.TestBaseHerokuApp;
+import com.techproed.testbaseclasses.TestBaseHerokuApp;
 
 
 public class GetRequest07 extends TestBaseHerokuApp {

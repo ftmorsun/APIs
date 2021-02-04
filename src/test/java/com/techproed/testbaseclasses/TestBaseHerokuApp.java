@@ -1,29 +1,19 @@
-package com.techproed.testBaseClasses;
-
-
-
-
-import java.util.HashMap;
+package com.techproed.testbaseclasses;
 
 import org.junit.Before;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 
-public class TestBaseDummy {
+public class TestBaseHerokuApp {
 	
 	protected RequestSpecification spec;
 	
 	@Before
 	public void setUp() {	
 		spec = new RequestSpecBuilder().
-							setBaseUri("http://dummy.restapiexample.com").
+							setBaseUri("https://restful-booker.herokuapp.com").
 							build();	
-	}
-
-	public HashMap<String, Object> setUpData() {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 }

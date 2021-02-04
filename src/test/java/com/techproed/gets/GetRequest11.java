@@ -1,4 +1,4 @@
-package com.techproed.javadevapi01;
+package com.techproed.gets;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
@@ -9,7 +9,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.techproed.testBaseClasses.TestBaseDummy;
+import com.techproed.testbaseclasses.TestBaseDummy;
 
 import io.restassured.response.Response;
 

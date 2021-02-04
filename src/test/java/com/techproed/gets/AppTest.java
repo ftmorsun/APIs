@@ -1,4 +1,4 @@
-package com.techproed.javadevapi01;
+package com.techproed.gets;
 
 import static org.junit.Assert.assertTrue;
 

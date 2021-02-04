@@ -1,13 +1,13 @@
-package com.techproed.javadevapi01;
+package com.techproed.gets;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import io.restassured.response.Response;
+import com.techproed.testbaseclasses.TestBaseHerokuApp;
 
-import com.techproed.testBaseClasses.TestBaseHerokuApp;
+import io.restassured.response.Response;
 
 
 public class GetRequest06 extends TestBaseHerokuApp {

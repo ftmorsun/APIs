@@ -1,4 +1,4 @@
-package com.techproed.javadevapi01;
+package com.techproed.gets;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -12,7 +12,7 @@ import static io.restassured.RestAssured.*;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import com.techproed.*;
-import com.techproed.testBaseClasses.TestBaseDummy;
+import com.techproed.testbaseclasses.TestBaseDummy;
 
 public class GetRequest08 extends TestBaseDummy{
 

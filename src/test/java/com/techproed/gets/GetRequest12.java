@@ -1,4 +1,4 @@
-package com.techproed.javadevapi01;
+package com.techproed.gets;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
@@ -8,7 +8,7 @@ import org.junit.Test;
 import com.google.gson.Gson;
 import com.techproed.pojos.Data;
 import com.techproed.pojos.Employee;
-import com.techproed.testBaseClasses.TestBaseDummy;
+import com.techproed.testbaseclasses.TestBaseDummy;
 
 import io.restassured.response.Response;
 

@@ -1,4 +1,4 @@
-package com.techproed.javadevapi01;
+package com.techproed.gets;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertFalse;
@@ -23,8 +23,11 @@ public class GetRequest02 {
 	     Response body contains "Not Found"
 	  And
 	     Response body does not contain "TechProEd"*/
+
+	
 	
 	@Test
+	
 	public void get02()
 	{
 		      //1.Step: Set the URL

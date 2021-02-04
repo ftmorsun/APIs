@@ -1,13 +1,15 @@
-package com.techproed.javadevapi01;
+package com.techproed.gets;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.assertEquals;
 
 import java.util.HashMap;
 
 import org.junit.Test;
+
+import com.techproed.testbaseclasses.*;
+
 import static io.restassured.RestAssured.*;
 import io.restassured.response.Response;
-import com.techproed.testBaseClasses.*;
 
 public class GetRequest10 extends TestBaseJsonPlaceHolder {
 	

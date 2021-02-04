@@ -1,4 +1,4 @@
-package com.techproed.javadevapi01;
+package com.techproed.gets;
 
 import static io.restassured.RestAssured.given;
 
@@ -15,7 +15,7 @@ public class GetRequest01 {
 	 * Then: It gives output what would be output
 	 * And:
 	 */
-	
+	protected int value;
 	@Test
 	public void get01()
 	{

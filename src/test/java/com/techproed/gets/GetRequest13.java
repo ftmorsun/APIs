@@ -1,4 +1,4 @@
-package com.techproed.javadevapi01;
+package com.techproed.gets;
 
 import static org.junit.Assert.assertEquals;
 import static io.restassured.RestAssured.given;
@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import com.techproed.pojos.Bookingdate;
 import com.techproed.pojos.Bookings;
-import com.techproed.testBaseClasses.TestBaseHerokuApp;
+import com.techproed.testbaseclasses.TestBaseHerokuApp;
 
 import io.restassured.response.Response;
 

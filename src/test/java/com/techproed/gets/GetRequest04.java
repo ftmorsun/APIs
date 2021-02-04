@@ -1,4 +1,4 @@
-package com.techproed.javadevapi01;
+package com.techproed.gets;
 
 import static org.hamcrest.Matchers.*;
 import org.junit.Test;
